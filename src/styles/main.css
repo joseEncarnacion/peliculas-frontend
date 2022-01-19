@@ -1,0 +1,99 @@
+/* -------general styles */
+
+
+body {
+    box-sizing: border-box;
+    background-color: #eee;
+
+}
+
+.titulo_1 {
+    font-size: 1.7rem;
+    padding-bottom: 1rem ;
+    font-weight: 600;
+}
+.titulo_2 {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.subtitulo_1 {
+    color: #A9A9A9;
+}
+
+
+.titulo_card_1 {
+    font-size: 1rem;
+    padding-bottom: 0.5rem ;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.titulo_card_2 {
+    font-size: 0.8rem;
+    padding-bottom: 0.5rem ;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+/* peliculas */
+
+
+
+.main-box {
+    margin-top: 3rem;
+}
+
+.card-shadows {
+    box-shadow: 3px 2px 4px rgb(128, 128, 128, 0.2);
+    background-color: rgb(220, 220, 220);
+}
+
+.input {
+    background-color: #eee;
+    margin-bottom: 20px;
+
+}
+
+/* crear pelicula */
+
+
+
+/* media querys */
+
+@media screen and (min-width: 700px) {
+    /* id  */
+    .card-infoID {
+        display: flex;
+
+    }
+
+    .titulo_card_1 {
+        font-size: 1.3rem;
+        padding-bottom: 0.5rem ;
+        font-weight: 600;
+        text-transform: uppercase;
+        padding: 1rem;
+    }
+
+    .imgID {
+        width: 50%;
+    }
+    
+    /* id */
+
+    .id_img {
+        width: 300px;
+    }
+    .id_img_box {
+        display: flex;
+        /* justify-content: center; */
+    }
+
+
+}
